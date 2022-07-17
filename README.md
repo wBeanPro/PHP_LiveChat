@@ -1,422 +1,146 @@
-Contribution: 2020-01-30 20:00
+# Laravel Messenger
+
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Total Downloads][ico-downloads]][link-downloads]
+[![Tests][ico-test]][link-test]
+[![StyleCI][ico-styleci]][link-styleci]
+[![License][ico-license]][link-license]
+
+---
+
+---
+
+### Prerequisites
+
+| Laravel |         PHP          |   Messenger |
+| ------- | :------------------: | ----------: |
+| `8.x`   | `^7.4` `^8.0` `^8.1` | `<= 1.19.1` |
+| `9.x`   |   `^8.0.2` `^8.1`    | `>= 1.20.0` |
 
-Contribution: 2020-01-30 20:01
+- Route model binding enabled in your API / WEB middleware groups.
 
-Contribution: 2020-01-30 20:02
-
-Contribution: 2020-01-30 20:03
-
-Contribution: 2020-01-31 20:00
-
-Contribution: 2020-01-31 20:01
-
-Contribution: 2020-02-03 20:00
-
-Contribution: 2020-02-03 20:01
-
-Contribution: 2020-02-03 20:02
-
-Contribution: 2020-02-04 20:00
-
-Contribution: 2020-02-04 20:01
-
-Contribution: 2020-02-05 20:00
-
-Contribution: 2020-02-05 20:01
-
-Contribution: 2020-02-05 20:02
-
-Contribution: 2020-02-05 20:03
-
-Contribution: 2020-02-07 20:00
-
-Contribution: 2020-02-07 20:01
-
-Contribution: 2020-02-08 20:00
-
-Contribution: 2020-02-08 20:01
-
-Contribution: 2020-02-08 20:02
-
-Contribution: 2020-02-08 20:03
-
-Contribution: 2020-02-09 20:00
-
-Contribution: 2020-02-09 20:01
-
-Contribution: 2020-02-19 20:00
-
-Contribution: 2020-02-19 20:01
-
-Contribution: 2020-02-19 20:02
-
-Contribution: 2020-02-19 20:03
-
-Contribution: 2020-02-20 20:00
-
-Contribution: 2020-02-20 20:01
-
-Contribution: 2020-02-25 20:00
-
-Contribution: 2020-02-25 20:01
-
-Contribution: 2020-02-25 20:02
-
-Contribution: 2020-02-26 20:00
-
-Contribution: 2020-02-26 20:01
-
-Contribution: 2020-02-26 20:02
-
-Contribution: 2020-02-26 20:03
-
-Contribution: 2020-03-07 20:00
-
-Contribution: 2020-03-07 20:01
-
-Contribution: 2020-03-07 20:02
-
-Contribution: 2020-03-07 20:03
-
-Contribution: 2020-03-11 20:00
-
-Contribution: 2020-03-11 20:01
-
-Contribution: 2020-03-12 20:00
-
-Contribution: 2020-03-15 20:00
-
-Contribution: 2020-03-19 20:00
-
-Contribution: 2020-03-19 20:01
-
-Contribution: 2020-03-19 20:02
-
-Contribution: 2020-03-19 20:03
-
-Contribution: 2020-03-28 20:00
-
-Contribution: 2020-03-29 20:00
-
-Contribution: 2020-03-29 20:01
-
-Contribution: 2020-03-29 20:02
-
-Contribution: 2020-04-01 20:00
-
-Contribution: 2020-04-01 20:01
-
-Contribution: 2020-04-01 20:02
-
-Contribution: 2020-04-07 20:00
-
-Contribution: 2020-04-07 20:01
-
-Contribution: 2020-04-09 20:00
-
-Contribution: 2020-04-09 20:01
-
-Contribution: 2020-04-09 20:02
-
-Contribution: 2020-04-09 20:03
-
-Contribution: 2020-04-13 20:00
-
-Contribution: 2020-04-13 20:01
-
-Contribution: 2020-04-17 20:00
-
-Contribution: 2020-04-17 20:01
-
-Contribution: 2020-04-17 20:02
-
-Contribution: 2020-04-17 20:03
-
-Contribution: 2020-04-19 20:00
-
-Contribution: 2020-04-19 20:01
-
-Contribution: 2020-04-19 20:02
-
-Contribution: 2020-04-21 20:00
-
-Contribution: 2020-04-21 20:01
-
-Contribution: 2020-04-28 20:00
-
-Contribution: 2020-04-30 20:00
-
-Contribution: 2020-05-01 20:00
-
-Contribution: 2020-05-01 20:01
-
-Contribution: 2020-05-01 20:02
-
-Contribution: 2020-05-02 20:00
-
-Contribution: 2020-05-03 20:00
-
-Contribution: 2020-05-03 20:01
-
-Contribution: 2020-05-03 20:02
-
-Contribution: 2020-05-03 20:03
-
-Contribution: 2020-05-04 20:00
-
-Contribution: 2020-05-04 20:01
-
-Contribution: 2020-05-04 20:02
-
-Contribution: 2020-05-09 20:00
-
-Contribution: 2020-05-09 20:01
-
-Contribution: 2020-05-09 20:02
-
-Contribution: 2020-05-15 20:00
-
-Contribution: 2020-05-15 20:01
-
-Contribution: 2020-05-15 20:02
-
-Contribution: 2020-05-16 20:00
-
-Contribution: 2020-05-23 20:00
-
-Contribution: 2020-05-24 20:00
-
-Contribution: 2020-05-25 20:00
-
-Contribution: 2020-05-25 20:01
-
-Contribution: 2020-05-26 20:00
-
-Contribution: 2020-05-28 20:00
-
-Contribution: 2020-05-28 20:01
-
-Contribution: 2020-05-29 20:00
-
-Contribution: 2020-05-29 20:01
-
-Contribution: 2020-06-02 20:00
-
-Contribution: 2020-06-02 20:01
-
-Contribution: 2020-06-04 20:00
-
-Contribution: 2020-06-04 20:01
-
-Contribution: 2020-06-04 20:02
-
-Contribution: 2020-06-13 20:00
-
-Contribution: 2020-06-17 20:00
-
-Contribution: 2020-06-17 20:01
-
-Contribution: 2020-06-17 20:02
-
-Contribution: 2020-06-21 20:00
-
-Contribution: 2020-06-26 20:00
-
-Contribution: 2020-06-26 20:01
-
-Contribution: 2020-06-26 20:02
-
-Contribution: 2020-06-27 20:00
-
-Contribution: 2020-06-27 20:01
-
-Contribution: 2020-07-04 20:00
-
-Contribution: 2020-07-04 20:01
-
-Contribution: 2020-07-04 20:02
-
-Contribution: 2020-07-04 20:03
-
-Contribution: 2020-07-07 20:00
-
-Contribution: 2020-07-07 20:01
-
-Contribution: 2020-07-07 20:02
-
-Contribution: 2020-07-14 20:00
-
-Contribution: 2020-07-14 20:01
-
-Contribution: 2020-07-18 20:00
-
-Contribution: 2020-07-18 20:01
-
-Contribution: 2020-07-18 20:02
-
-Contribution: 2020-07-20 20:00
-
-Contribution: 2020-07-20 20:01
-
-Contribution: 2020-07-22 20:00
-
-Contribution: 2020-07-24 20:00
-
-Contribution: 2020-07-24 20:01
-
-Contribution: 2020-07-26 20:00
-
-Contribution: 2020-07-26 20:01
-
-Contribution: 2020-07-29 20:00
-
-Contribution: 2020-08-09 20:00
-
-Contribution: 2020-08-09 20:01
-
-Contribution: 2020-08-12 20:00
-
-Contribution: 2020-08-12 20:01
-
-Contribution: 2020-08-12 20:02
-
-Contribution: 2020-08-14 20:00
-
-Contribution: 2020-08-14 20:01
-
-Contribution: 2020-08-14 20:02
-
-Contribution: 2020-08-16 20:00
-
-Contribution: 2020-08-16 20:01
-
-Contribution: 2020-08-19 20:00
-
-Contribution: 2020-08-19 20:01
-
-Contribution: 2020-08-19 20:02
-
-Contribution: 2020-08-19 20:03
-
-Contribution: 2020-08-22 20:00
-
-Contribution: 2020-08-22 20:01
-
-Contribution: 2020-08-22 20:02
-
-Contribution: 2020-08-22 20:03
-
-Contribution: 2020-08-29 20:00
-
-Contribution: 2020-08-30 20:00
-
-Contribution: 2020-08-30 20:01
-
-Contribution: 2020-09-01 20:00
-
-Contribution: 2020-09-04 20:00
-
-Contribution: 2020-09-04 20:01
-
-Contribution: 2020-09-05 20:00
-
-Contribution: 2020-09-07 20:00
-
-Contribution: 2020-09-07 20:01
-
-Contribution: 2020-09-07 20:02
-
-Contribution: 2020-09-10 20:00
-
-Contribution: 2020-09-11 20:00
-
-Contribution: 2020-09-11 20:01
-
-Contribution: 2020-09-11 20:02
-
-Contribution: 2020-09-16 20:00
-
-Contribution: 2020-09-20 20:00
-
-Contribution: 2020-09-20 20:01
-
-Contribution: 2020-09-21 20:00
-
-Contribution: 2020-09-26 20:00
-
-Contribution: 2020-09-28 20:00
-
-Contribution: 2020-09-28 20:01
-
-Contribution: 2020-09-29 20:00
-
-Contribution: 2020-09-29 20:01
-
-Contribution: 2020-09-29 20:02
-
-Contribution: 2020-09-29 20:03
-
-Contribution: 2020-09-30 20:00
-
-Contribution: 2020-10-03 20:00
-
-Contribution: 2020-10-07 20:00
-
-Contribution: 2020-10-07 20:01
-
-Contribution: 2020-10-08 20:00
-
-Contribution: 2020-10-08 20:01
-
-Contribution: 2020-10-08 20:02
-
-Contribution: 2020-10-08 20:03
-
-Contribution: 2020-10-11 20:00
-
-Contribution: 2020-10-11 20:01
-
-Contribution: 2020-10-19 20:00
-
-Contribution: 2020-10-27 20:00
-
-Contribution: 2020-10-27 20:01
-
-Contribution: 2020-10-27 20:02
-
-Contribution: 2020-10-27 20:03
-
-Contribution: 2020-11-01 20:00
-
-Contribution: 2020-11-01 20:01
-
-Contribution: 2020-11-01 20:02
-
-Contribution: 2020-11-08 20:00
-
-Contribution: 2020-11-08 20:01
-
-Contribution: 2020-11-12 20:00
-
-Contribution: 2020-11-12 20:01
-
-Contribution: 2020-11-12 20:02
-
-Contribution: 2020-11-15 20:00
-
-Contribution: 2020-11-15 20:01
-
-Contribution: 2020-11-15 20:02
-
-Contribution: 2020-11-15 20:03
-
-Contribution: 2020-11-18 20:00
-
-Contribution: 2020-11-20 20:00
-
-Contribution: 2020-11-20 20:01
-
-Contribution: 2020-11-20 20:02
-
-Contribution: 2020-11-20 20:03
-
+### Features
+
+- Realtime messaging between multiple models.
+- RESTful API, allowing you to create your own UI or connect to your mobile app.
+- Private and group threads.
+- Message reactions, replies, edits, and deletion.
+- Send image, document, audio, and video messages.
+- Group thread chat-bots. [Ready-made bots][link-messenger-bots]
+- Customize and create your own chat-bot handlers and bot packages. See the [Chat Bots][link-chat-bots] documentation.
+- Add participants in a group thread from your friends list.
+- Permissions per participant within a group thread.
+- Friends, Search, and Online status systems.
+- Private thread approval when the two participants are not friends.
+- Provider avatars, group thread avatars, and bot avatars.
+- Underlying calling system you can extend. See the [Calling][link-calling] documentation.
+- Group thread invitation links (like discord).
+- All endpoints are protected behind policies.
+- Scheduled commands for automated cleanup and checks.
+- Queued jobs fired from our event subscribers.
+- Most features can be toggled at runtime using our `Messenger` facade.
+- `MessengerComposer` facade allows you to have easy access to the core actions anywhere within your own app, such as sending messages, images, reactions, and more.
+- You can implement or extend your own `BroadcastDriver`, `VideoDriver`, and `FriendDriver`, simply by binding your classes into the container.
+- Support for morph maps on your provider models. See: [Morph Maps][link-morph-maps]
+- Optional extra payload when sending messages to allow custom json to be stored with the message.
+- Owner relationships returns a `Ghost Profile` when not found (null-object pattern).
+- Private threads auto-lock when the recipient is not found / deleted.
+
+### Upcoming for v2
+
+- Temporary Ephemeral conversations.
+- Improved API pagination / filters.
+- Condense attachment routes.
+- Possible extraction of friends system.
+- Improved image manipulation / saving of multiple sizes.
+- Encryption of messages (E2E is the long term goal).
+- Translations for internal messages.
+- Pinned messages.
+- Chat-bots able to trigger off of an event.
+
+### Notes
+
+- This is a `Laravel` package and must be installed in a `laravel` application to run.
+- Read through the [`messenger.php`][link-config] config file before migrating!
+- This is a pure backend driven package providing an API to interact with, thus no web UI or websocket implementation will be setup for you.
+- Calling is disabled by default. You are responsible for implementing your own media server or connecting to a 3rd party provider.
+- Configure your laravel applications broadcast driver and set up your websocket implementation to utilize the real-time broadcast emitted.
+
+---
+
+# Installation
+
+### Composer
+
+```bash
+composer require rtippin/messenger
+```
+
+### To complete the setup, please refer to the installation documentation listed below:
+
+---
+
+# Documentation
+
+- ### [Install / Registering Providers][link-installation]
+- ### [Configuration][link-configuration]
+- ### [Commands][link-commands]
+- ### [Broadcasting][link-broadcasting]
+- ### [Events][link-events]
+- ### [Chat Bots][link-chat-bots]
+- ### [Calling][link-calling]
+- ### [Messenger Composer][link-messenger-composer]
+- ### [Helpers / Facades][link-helpers]
+- ### [API Explorer][link-api-explorer]
+
+---
+
+## Addons / Demo
+
+- [Messenger Bots][link-messenger-bots] - Pre-made bots you can register within this package.
+- [Messenger Faker][link-messenger-faker] - Adds commands useful in development environments to mock/seed realtime events and messages.
+- [Messenger Web UI][link-messenger-ui] - Ready-made web routes and publishable views / assets, including default images.
+- [Demo App][link-demo-source] - A demo laravel app with this core package installed, including a [Live Demo][link-live-demo].
+
+---
+
+## Credits - [Richard Tippin][link-author]
+
+### [LICENSE][link-license]
+
+### [CHANGELOG][link-changelog]
+
+## Security
+
+If you discover any security related issues, please email author instead of using the issue tracker.
+
+[ico-version]: https://img.shields.io/packagist/v/rtippin/messenger.svg?style=plastic&cacheSeconds=3600
+[ico-downloads]: https://img.shields.io/packagist/dt/rtippin/messenger.svg?style=plastic&cacheSeconds=3600
+[ico-styleci]: https://styleci.io/repos/309521487/shield?style=plastic&cacheSeconds=3600
+[ico-license]: https://img.shields.io/github/license/RTippin/messenger?style=plastic
+[link-packagist]: https://packagist.org/packages/rtippin/messenger
+[link-test]: https://github.com/RTippin/messenger/actions
+[ico-test]: https://img.shields.io/github/workflow/status/rtippin/messenger/tests?style=plastic
+[link-downloads]: https://packagist.org/packages/rtippin/messenger
+[link-license]: https://packagist.org/packages/rtippin/messenger
+[link-styleci]: https://styleci.io/repos/309521487
+[link-author]: https://github.com/rtippin
+[link-config]: https://github.com/RTippin/messenger/blob/1.x/config/messenger.php
+[link-api-explorer]: https://tippindev.com/api-explorer
+[link-morph-maps]: https://laravel.com/docs/8.x/eloquent-relationships#custom-polymorphic-types
+[link-messenger-bots]: https://github.com/RTippin/messenger-bots
+[link-messenger-faker]: https://github.com/RTippin/messenger-faker
+[link-messenger-ui]: https://github.com/RTippin/messenger-ui
+[link-demo-source]: https://github.com/RTippin/messenger-demo
+[link-live-demo]: https://tippindev.com
+[link-installation]: docs/Installation.md
+[link-configuration]: docs/Configuration.md
+[link-commands]: docs/Commands.md
+[link-broadcasting]: docs/Broadcasting.md
+[link-events]: docs/Events.md
+[link-calling]: docs/Calling.md
+[link-chat-bots]: docs/ChatBots.md
+[link-helpers]: docs/Helpers.md
+[link-messenger-composer]: docs/Composer.md
+[link-changelog]: https://github.com/RTippin/messenger/blob/1.x/CHANGELOG.md
+[link-license]: https://github.com/RTippin/messenger/blob/1.x/LICENSE.md
